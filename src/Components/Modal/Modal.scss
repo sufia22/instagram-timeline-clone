@@ -1,0 +1,50 @@
+.modal-blur {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: rgba(0, 0, 0, 0.5);
+
+  button.hide {
+    background-color: transparent;
+    color: #fff;
+    font-size: 34px;
+    padding: 10px;
+    border: none;
+    float: right;
+
+    i {
+      text-align: right;
+    }
+  }
+
+  .modal-wraper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    .modal-main {
+      width: 400px;
+      background-color: #fff;
+      border-radius: 10px;
+
+      .modal-head {
+        text-align: center;
+
+        h3 {
+          font-size: 18px;
+          font-weight: 600;
+          padding-top: 10px;
+        }
+      }
+
+      .modal-body {
+        padding: 0px 15px 15px 15px;
+      }
+    }
+  }
+}
